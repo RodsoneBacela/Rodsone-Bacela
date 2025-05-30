@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col md:flex-row max-w-7xl gap-8 md:gap-16 lg:gap-24 mx-auto items-center justify-center text-center md:text-left">
         <div className="flex-1 order-2 md:order-1 mt-1 md:mt-0"> 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-wide mb-4 animate-fade-in-up">
-            Rodson Bacela
+            Rodsone Bacela
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-wide text-neutral-600 mb-6 animate-fade-in-up delay-200">
             Software Developer

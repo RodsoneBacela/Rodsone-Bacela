@@ -5,13 +5,13 @@ import AboutSection from './../components/Sections/AboutSection';
 
 export default function Home() {
   return (
-    <div className="font-plex">
-      <main>
-        <HeroSection/>
-        <ProjectsSection/>
-        <AboutSection/>
-        <ContactSection/>
-      </main>
-    </div>
+      <div className="font-plex">
+        <main>
+          <HeroSection/>
+          <ProjectsSection/>
+          <AboutSection/>
+          <ContactSection/>
+        </main>
+      </div>
   );
 }

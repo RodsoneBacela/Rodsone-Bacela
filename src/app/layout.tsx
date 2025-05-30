@@ -16,28 +16,54 @@ const plexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Rodsone Bacela - Portfolio",
-  description: "Rodsone Bacela personal portfolio",
-  keywords: [
-    "portfolio",
-    "rodsone bacela",
-    "web developer",
-    "react",
-    "nextjs",
-    "javascript",
-    "Rodsone Bacela",
-    "Rodsone",
-  ],
-  authors: [{ name: "Rodsone Bacela" }],
-  openGraph: {
-    title: "Rodsone Bacela - Portfolio",
-    description:
-      "Desenvolvedor de software frontend com experiência em React e Next.js. Explore meu portfólio de projetos e descubra como posso ajudar a construir interfaces web incríveis.",
-    url: "https://rodsone-bacela.vercel.app",
-    siteName: "Rodsone Bacela Portfolio",
-    locale: "en_US",
-    type: "website",
+  title: "Rodsone Bacela – Software Developer",
+  description:
+    "Portfólio de Rodsone Bacela, desenvolvedor de software com foco em front-end e experiência em React, Next.js e Tailwind CSS.",
+  alternates: {
+    canonical: "https://rodsone-bacela.vercel.app",
   },
+  openGraph: {
+    type: "website",
+    locale: "pt_PT",
+    url: "https://rodsone-bacela.vercel.app",
+    siteName: "Rodsone Bacela",
+    title: "Rodsone Bacela – Software Developer",
+    description:
+      "Portfólio de Rodsone Bacela, desenvolvedor de software com foco em front-end e experiência em React, Next.js e Tailwind CSS.",
+    images: [
+      {
+        url: "https://rodsone-bacela.vercel.app/images/profile.png",
+        width: 800,
+        height: 600,
+        alt: "Rodsone Bacela",
+      },
+    ],
+  },
+  twitter: { // As discussed, this is for Twitter
+    card: "summary_large_image",
+    site: "@rodsone_fernandes",
+    creator: "@rodsone_fernandes",
+    title: "Rodsone Bacela – Software Developer",
+    description:
+      "Portfólio de Rodsone Bacela, desenvolvedor de software com foco em front-end e experiência em React, Next.js e Tailwind CSS.",
+    images: {
+      url: "https://rodsone-bacela.vercel.app/images/profile.png",
+      alt: "Rodsone Bacela",
+    },
+  },
+  keywords: [
+    "Rodsone Bacela",
+    "RodsoneBacela",
+    "rodsone-bacela",
+    "Rodsone Fernandes",
+    "desenvolvedor de software",
+    "front-end",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "portfólio",
+  ],
+  authors: [{ name: "Rodsone Bacela", url: "https://rodsone-bacela.vercel.app" }],
 };
 
 export default function RootLayout({
@@ -46,7 +72,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body
         className={`${inter.variable} ${plexSans.variable} antialiased`}
       >

@@ -43,7 +43,7 @@ export default function About() {
               Desenvolvedor de software com foco em front-end, crio soluções que são não apenas inovadoras e funcionais,
               mas também visualmente impactantes. Minha experiência inclui React.js e Next.js, complementada por uma base sólida em
               análise de dados e Python. Sou atento aos detalhes, com excelente capacidade de resolução de problemas e comunicação.
-              O objetivo é sempre entregar resultados e qualidade, seja atuando em equipe ou de forma independente.
+              O objetivo é sempre entregar resultados de alta qualidade, seja atuando em equipe ou de forma independente.
             </p>
           </div>
           <div className='w-full md:w-1/2 flex flex-col items-center md:items-start gap-6'>
