@@ -47,9 +47,10 @@ const HeroSection = () => {
                 </div>
             <div>
                 <Link
-                href="/resume.pdf" 
+                href="/Rodsone-Bacela.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
+                download="Rodsone-Bacela.pdf"
                 className="bg-white/5 border-1 border-neutral-500 text-white font-bold py-3 px-8 rounded-sm shadow-lg hover:bg-green-200/10 hover:text-white transition-all duration-300 transform hover:scale-105"
                 >
                 Baixar CV
