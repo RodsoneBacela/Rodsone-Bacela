@@ -125,11 +125,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               href={project.designUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className='text-balance'
+              className='text-balance flex flex-wrap'
             >
-              <p className="text-wrap text-neutral-300 leading-relaxed text-base sm:text-lg md:text-xl lg:text-2xl">
-                {project.designUrl}
-              </p>
+              <div className="flex gap-4 bg-white text-black font-medium rounded-md  px-3 py-2 leading-relaxed text-base sm:text-lg md:text-xl lg:text-2xl">
+               Ver Design
+               <ExternalLink className="h-6 w-6 mr-2" />
+              </div>
             </Link>
           ) : (
         // Optional: Render something else or nothing if designUrl is undefined
