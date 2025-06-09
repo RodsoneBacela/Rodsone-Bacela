@@ -37,7 +37,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-neutral-900/70 to-transparent z-10"></div>
 
         <Link
-          href="projects"
+          href="/projects"
           className="absolute top-4 left-4 z-20 p-3 bg-neutral-800/70 rounded-full hover:bg-neutral-700 transition-colors duration-300 flex items-center justify-center"
           title="Back to Projects"
         >
