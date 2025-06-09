@@ -103,7 +103,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         {project.progress !== undefined && (
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-neutral-200">Status do Projeto</h2>
-            <div className="w-2xl bg-neutral-700 rounded-full h-2.5">
+            <div className="w-full bg-neutral-700 rounded-full h-2.5">
               <div
                 className="bg-green-500 h-2.5 rounded-full"
                 style={{ width: `${project.progress}%` }}
@@ -118,12 +118,24 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 { project.more_details} 
             </p>
         </div>
-        <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-neutral-200">Design</h2>
-            <p className="text-neutral-300 leading-relaxed">
-                { project.designUrl} 
-            </p>
-        </div>
+        <div className="mb-8 ">
+          <h2 className="text-2xl font-semibold mb-4 text-neutral-200">Design</h2>
+          {project.designUrl ? ( // Check if designUrl exists before rendering the Link
+            <Link
+              href={project.designUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className='text-balance'
+            >
+              <p className="text-wrap text-neutral-300 leading-relaxed text-base sm:text-lg md:text-xl lg:text-2xl">
+                {project.designUrl}
+              </p>
+            </Link>
+          ) : (
+        // Optional: Render something else or nothing if designUrl is undefined
+          <p className="text-neutral-300 leading-relaxed">No design URL available.</p>
+          )}
+      </div>
       </div>
     </div>
   );
