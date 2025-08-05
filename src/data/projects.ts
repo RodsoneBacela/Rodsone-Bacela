@@ -60,4 +60,28 @@ export const projects: Project[] = [
     slug: "gym-control",
     progress: 70,
   },
+  {
+    id: "3",
+    name: "Recibos.com",
+    description:
+      "O Sistema de Geração de Recibos é uma aplicação web moderna e intuitiva desenvolvida com Next.js que permite a criação, visualização e exportação de recibos de forma rápida, segura e profissional.",
+    more_details:
+      "Pensado para pequenas e médias empresas, prestadores de serviço e freelancers, o sistema oferece uma interface simples e elegante inspirada no design minimalista da Apple, garantindo uma ótima experiência tanto em computadores, tablets quanto em dispositivos móveis. Principais funcionalidades: Formulário inteligente,Pré-visualização em tempo real, Download em PDF, Cálculo automático de subtotal, impostos (IVA) e valor total ",
+    image: "/images/recibos.png",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Shadcn",
+      "Github",
+      "Vercel",
+      "Tailwindcss",
+      "Lucide Icons",
+      "Context API",
+    ],
+    githubUrl: "https://github.com/RodsoneBacela/recibos.com",
+    liveUrl: "https://recibos-com.vercel.app/",
+    slug: "recibos",
+    progress: 100,
+  },
 ];

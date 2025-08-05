@@ -3,6 +3,7 @@ import { Inter, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -78,6 +79,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Analytics />
         <Footer/>
       </body>
     </html>
