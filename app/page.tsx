@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description: 'Portfólio com projetos em Next.js, React, TypeScript e mais.',
     images: [
       {
-        url: 'https://seu-site.com/og-image.jpg',
+        url: 'https://rodsone-bacela.vercel.app/card.png',
         width: 1200,
         height: 630,
         alt: 'Rodsone Bacela - Portfólio'
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rodsone Bacela - Engenheiro de Software',
     description: 'Conheça meus projetos ',
-    images: ['https://seu-site.com/og-image.jpg'],
+    images: ['https://rodsone-bacela.vercel.app/card.png'],
     creator: '@seuusuario'
   },
 
