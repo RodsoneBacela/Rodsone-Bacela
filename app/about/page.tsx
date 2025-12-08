@@ -40,7 +40,7 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <div className="pt-32 pb-20 px-6 overflow-hidden bg-black text-white font-plex">
+    <div className=" pt-32 pb-20 px-6 overflow-hidden bg-black text-white font-plex">
       <div className="max-w-7xl mx-auto">
         <MotionDiv
           initial={{ opacity: 0, y: 30 }}
@@ -227,7 +227,7 @@ export default function AboutPage() {
               whileTap={{ scale: 0.95 }}
               className="px-12 py-5 bg-linear-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-xl font-semibold text-lg shadow-2xl shadow-blue-500/25 transition-all"
             >
-              <Link href="/about">
+              <Link href="/contact">
                 Entrar em Contato
               </Link>
             </MotionButton>
