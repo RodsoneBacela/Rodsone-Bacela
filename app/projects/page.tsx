@@ -250,7 +250,7 @@ export default function ProjectsPage() {
       {/* ==== MOBILE LAYOUT ==== */}
       <div className="md:hidden">
         {viewMode === 'showcase' ? (
-          <div className="relative h-screen flex flex-col">
+          <div className="relative min-h-screen flex flex-col pb-10">
             <Image 
               src={current.gallery[0]} 
               alt={current.title} 
