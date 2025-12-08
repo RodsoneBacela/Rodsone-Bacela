@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: 'https://rodsone-bacela.vercel.app/',
     siteName: 'Rodsone Bacela - Portfólio',
     title: 'Rodsone Bacela - Engenheiro de Software',
-    description: 'Portfólio com projetos em Next.js, React, TypeScript e mais.',
+    description: 'Sou um engenheiro de Software e entusiasta de Dados. Apaixonado por criar soluções escaláveis',
     images: [
       {
         url: 'https://rodsone-bacela.vercel.app/card.png',
