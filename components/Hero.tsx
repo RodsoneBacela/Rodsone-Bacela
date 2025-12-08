@@ -49,7 +49,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="text-blue-400 font-medium tracking-wider text-md md:text-2xl uppercase"
+              className="text-blue-400 font-medium tracking-wider text-md md:text-xl uppercase"
             >
               Engenheiro de Software & <br/> Analista de Dados
             </motion.p>
@@ -58,7 +58,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-tight mt-4 text-white"
+              className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight mt-4 text-white"
             >
               Rodsone<br />
               <span className="text-blue-500">Bacela</span>

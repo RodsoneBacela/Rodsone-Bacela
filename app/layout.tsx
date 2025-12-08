@@ -110,11 +110,13 @@ export default function RootLayout({
     <html lang="pt">
       <body
       
-        className={`${inter.variable} ${plexSans.variable} antialiased`}
+        className={`${inter.variable} ${plexSans.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
+        <main className="flex-1">
           {children}
-          <Analytics />
+        </main>
+        <Analytics />
         <Footer/>
       </body>
     </html>

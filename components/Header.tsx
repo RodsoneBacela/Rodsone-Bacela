@@ -63,7 +63,7 @@ export default function Header() {
                 <motion.button
                   key={item.href}
                   onClick={() => navigateTo(item.href)}
-                  className={`relative text-base md:text-lg tracking-wide transition-colors ${
+                  className={`relative text-base md:text-base tracking-wide transition-colors ${
                     isActive
                       ? "text-blue-500"
                       : "text-white hover:text-white/70"

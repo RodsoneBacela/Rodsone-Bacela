@@ -182,7 +182,7 @@ export default function FeaturedProjects({
                   {currentProject.technologies.map((tag, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1.5 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm md:text-lg"
+                      className="px-3 py-1.5 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm md:text-base"
                     >
                       {tag}
                     </span>

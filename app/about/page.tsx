@@ -79,7 +79,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <p className="text-xl md:text-2xl text-white/70 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="text-xl md:text-xl text-white/70 max-w-4xl mx-auto leading-relaxed px-4">
             Desenvolvedor Full Stack e entusiasta de Dados. Apaixonado por criar soluções elegantes,
             escaláveis e com excelente experiência de usuário.
           </p>
@@ -99,7 +99,7 @@ export default function AboutPage() {
               transition={{ delay: 0.5 + i * 0.15, type: 'spring', stiffness: 120 }}
               className="text-center p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10"
             >
-              <div className="text-4xl md:text-5xl font-bold mb-3 text-blue-400">
+              <div className="text-2xl md:text-3xl font-bold mb-3 text-blue-400">
                 {stat.value}
               </div>
               <div className="text-white/60 text-sm md:text-base">{stat.label}</div>
@@ -114,7 +114,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 flex items-center gap-4">
+            <h2 className="text-xl md:text-3xl font-bold mb-8 flex items-center gap-4">
               <GraduationCap className="w-10 h-10 text-blue-400" />
               Minha Jornada
             </h2>
@@ -141,7 +141,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7 }}
             className="space-y-6"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 flex items-center gap-4">
+            <h2 className="text-xl md:text-3xl font-bold mb-8 flex items-center gap-4">
               <Award className="w-10 h-10 text-purple-400" />
               Formação & Certificações
             </h2>

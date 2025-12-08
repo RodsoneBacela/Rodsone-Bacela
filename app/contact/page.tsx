@@ -18,7 +18,7 @@ export default function Contact() {
     <div className="flex flex-col items-center justify-center min-h-screen px-6 bg-neutral-950 text-white text-center">
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-16">
-        <h1 className="text-5xl md:text-6xl mb-4 font-bold">Vamos Conversar</h1>
+        <h1 className="text-5xl md:text-xl mb-4 font-bold">Vamos Conversar</h1>
         <p className="text-white/60 max-w-xl mx-auto text-lg">
           Tem um projeto em mente ou quer apenas dizer olá? Ficarei feliz em ouvir de você.
         </p>

@@ -59,7 +59,7 @@ export default function ProjectsPage() {
                     initial={{ y: 40, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    className="text-6xl lg:text-8xl font-bold leading-tight"
+                    className="text-lg md:text-6xl font-bold leading-tight"
                   >
                     {current.title}
                   </motion.h1>

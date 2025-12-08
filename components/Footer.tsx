@@ -14,31 +14,21 @@ export default function Footer() {
 
 
   return (
-    <footer className="relative border-t border-white/10 bg-black">
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 items-center">
-          
-          {/* Brand */}
-          <div className="lg:col-span-2">
+    <footer className="relative border-t border-neutral-700 bg-black">
+      <div className="max-w-7xl mx-auto px-6 py-8">
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between  gap-4"
+        >
+          <div className="flex flex-col items-start">
+            <h3 className="text-2xl mb-4 text-white">
+              Rodsone<span className="text-green-500">.</span>
+            </h3>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <h3 className="text-2xl mb-4 text-white">
-                Rodsone<span className="text-green-500">.</span>
-              </h3>
-
-              <p className="text-white/60 mb-6 max-w-sm">
-                Engenheiro de Software & Analista de Dados, transformando ideias
-                em soluções tecnológicas inovadoras.
-              </p>
-
-              
-            </motion.div>
-          </div>
-
-          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -64,16 +54,9 @@ export default function Footer() {
                 ))}
               </div>
           </motion.div>
-        </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
-          className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4"
-        >
-          <p className="text-white text-sm flex items-center gap-2">
+          </div>
+          <p className="text-white text-sm flex items-end gap-2">
             © {currentYear} Rodsone Bacela. All Rights Reserved
             
           </p>

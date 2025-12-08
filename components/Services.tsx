@@ -30,8 +30,8 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-6xl mb-6  text-white">Serviços</h2>
-          <p className="text-white/60 text-sm md:text-xl font-medium max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-3xl mb-6  text-white">Serviços</h2>
+          <p className="text-white/60 text-sm md:text-lg font-medium max-w-2xl mx-auto">
             Soluções completas em desenvolvimento de software e análise de dados
           </p>
         </motion.div>
