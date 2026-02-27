@@ -59,6 +59,36 @@ export const services: Service[] = [
 
 export const projects: Project[] = [
   {
+    id: 'eco-impact',
+    title: 'Landing Page EcoImpacto',
+    description: 'Desenvolvimento da landing page de uma plataforma de formação especializada que oferece cursos práticos e inovadores nas áreas social, ambiental e de saúde e segurança ocupacional.',
+    fullDescription: 'Desenvolvimento da landing page de uma plataforma de formação especializada que oferece cursos práticos e inovadores nas áreas social, ambiental e de saúde e segurança ocupacional.',
+    
+    features: [
+      'Landing Page',
+      'Pesquisa',
+    ],
+    
+    about: 'CASO: O desafio era fazer o design e desenvolver a landing page com cores relacionadas a sustentabilidade, utilizando uma paleta de cores verdes e elementos visuais que remetessem à natureza, como folhas, árvores e ícones relacionados ao meio ambiente. O design foi pensado para transmitir a mensagem de sustentabilidade e responsabilidade ambiental da plataforma, criando uma experiência visualmente atraente e alinhada com os valores da marca.',
+    
+    gallery: [
+      '/images/eco/eco.webp',
+      '/images/eco/eco1.webp',
+      '/images/eco/eco2.webp',
+    ],
+
+    technologies: ['React', 'TypeScript','Vite', 'Shadcn', 'TailwindCSS', 'Github', 'Vercel'],
+    tags: ['Landing Page', ],
+
+    liveUrl: 'https://eco-impacto.vercel.app',
+    githubUrl: '#',
+
+    category: 'Web Development',
+    year: '2026',
+    status: 'Concluído',
+    color: '#3b82f6' 
+  },
+  {
     id: 'redesign-SBank',
     title: 'Redesign Landing Page Standard Bank Moçambique',
     description: 'Este projeto consistiu no redesign da landing page do Standard Bank Moçambique, com o objetivo principal de modernizar a sua interface e otimizar a experiência do usuário (UX)',
@@ -80,8 +110,8 @@ export const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'TailwindCSS', 'Github', 'Vercel'],
     tags: ['Landing Page', ],
 
-    liveUrl: 'https://dashboard.rodsone.dev',
-    githubUrl: 'https://github.com/rodsonebacela/dashboard-analytics',
+    liveUrl: 'https://standard-b-redesign.vercel.app',
+    githubUrl: '#',
 
     category: 'Web Development',
     year: '2024',
