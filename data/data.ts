@@ -59,6 +59,45 @@ export const services: Service[] = [
 
 export const projects: Project[] = [
   {
+    id: 'horu-pos',
+    title: 'Sistema Multiusos de Gestão e de vendas',
+    description: 'Sistema de gestão e vendas para pequenos negócios desenvolvido oferecendo uma solução completa para gerenciamento de vendas, estoque, fornecedores e clientes.',
+    fullDescription: 'O HoruPOS é uma aplicação web moderna e intuitiva, projetada para atender às necessidades de pequenos negócios. Ele oferece uma interface amigável e responsiva, garantindo uma ótima experiência tanto em computadores quanto em dispositivos móveis.',
+    
+    features: [
+      'Ponto de vendas',
+      'Gerenciamento de estoque',
+      'Gerenciamento de estoque',
+      'Gerenciamento de produtos',
+      'Gerenciamento de fornecedores',
+      'Gerenciamento de compras',
+      'Relatórios',
+      'Caixa',
+      'Facturas',
+      'Niveis de acesso',
+    ],
+    
+    about: 'O HoruPOS de Gestão e de vendas Credencias: username: gerente - password: admin123; username: caixa1 - password: admin123.',
+    
+    gallery: [
+      '/images/horu/horu.webp',
+      '/images/horu/horu2.webp',
+      '/images/horu/horu3.webp',
+      '/images/horu/horu4.webp',
+    ],
+
+    technologies: ['React', 'TypeScript','Next.js', 'Shadcn', 'TailwindCSS', 'Github', 'Vercel', "Prisma", "PostgreSQL", "ZOD", "JWT", "NEON"],
+    tags: ['Web Application', ],
+
+    liveUrl: 'https://pos-horu.vercel.app',
+    githubUrl: '#',
+
+    category: 'Full-Stack',
+    year: '2026',
+    status: 'Concluído',
+    color: '#3b82f6' 
+  },
+  {
     id: 'eco-impact',
     title: 'Landing Page EcoImpacto',
     description: 'Desenvolvimento da landing page de uma plataforma de formação especializada que oferece cursos práticos e inovadores nas áreas social, ambiental e de saúde e segurança ocupacional.',
